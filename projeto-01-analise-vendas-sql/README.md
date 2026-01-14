@@ -22,6 +22,16 @@ Dataset público de vendas do varejo online (Online Retail Dataset – Kaggle).
 - Criação de consultas SQL para agregações e filtros
 - Análise dos resultados obtidos
 
+## ⚠️ Observações sobre os Dados
+Durante a análise inicial da base de dados, foram identificados os seguintes pontos:
+
+- Existência de valores vazios em algumas colunas (ex: identificação do cliente).
+- Presença de quantidades negativas, representando possíveis devoluções.
+- Registros com preço unitário igual a zero.
+- Todas as vendas possuem data e hora registradas.
+- Vendas realizadas em múltiplos países, com predominância de um país específico.
+
+
 ## 📈 Principais Insights
 *(Esta seção será preenchida após a análise dos dados.)*
 
