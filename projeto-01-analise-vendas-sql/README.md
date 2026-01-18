@@ -33,7 +33,11 @@ Durante a análise inicial da base de dados, foram identificados os seguintes po
 
 
 ## 📈 Principais Insights
-*(Esta seção será preenchida após a análise dos dados.)*
+- O faturamento apresenta variação ao longo dos meses, indicando possível sazonalidade.
+- Um pequeno grupo de produtos concentra grande parte do volume de vendas.
+- A maior parte das vendas possui ticket médio relativamente baixo, com alto volume de transações.
+- A análise considera apenas registros válidos, excluindo devoluções e valores inconsistentes.
+
 
 ## 🚀 Próximos Passos
 Os dados analisados neste projeto podem ser utilizados futuramente como base para modelos de previsão de vendas e aplicações de Machine Learning.
