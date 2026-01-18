@@ -40,5 +40,9 @@ Durante a análise inicial da base de dados, foram identificados os seguintes po
 
 
 ## 🚀 Próximos Passos
-Os dados analisados neste projeto podem ser utilizados futuramente como base para modelos de previsão de vendas e aplicações de Machine Learning.
+Como evolução deste projeto, os dados podem ser utilizados para:
+- Modelos de previsão de vendas.
+- Identificação de padrões de comportamento de clientes.
+- Aplicações de Machine Learning para apoio à tomada de decisão.
+
 
