@@ -37,7 +37,7 @@ Durante a análise inicial da base de dados, foram identificados os seguintes po
 - Um pequeno grupo de produtos concentra grande parte do volume de vendas.
 - A maior parte das vendas possui ticket médio relativamente baixo, com alto volume de transações.
 - A análise considera apenas registros válidos, excluindo devoluções e valores inconsistentes.
-
+- O ticket médio foi calculado considerando o valor total por pedido (InvoiceNo).
 
 ## 🚀 Próximos Passos
 Como evolução deste projeto, os dados podem ser utilizados para:
