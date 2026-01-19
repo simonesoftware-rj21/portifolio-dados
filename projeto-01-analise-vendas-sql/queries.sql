@@ -38,9 +38,16 @@ ORDER BY total_quantity DESC
 LIMIT 10;
 
 
--- Cálculo do ticket médio
-SELECT 
-    AVG(Quantity * UnitPrice) AS average_ticket
-FROM online_retail
-WHERE Quantity > 0
-  AND UnitPrice > 0;
+-- Cálculo do ticket médio por pedido
+SELECT
+    AVG(order_total) AS average_ticket
+FROM (
+    SELECT
+        InvoiceNo,
+        SUM(Quantity * UnitPrice) AS order_total
+    FROM online_retail
+    WHERE Quantity > 0
+      AND UnitPrice > 0
+    GROUP BY InvoiceNo
+) sub;
+
